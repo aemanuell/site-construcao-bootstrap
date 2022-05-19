@@ -20,19 +20,18 @@
 
 <p align="center">
   <kbd>
-    <img width="500" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-58.gif" alt="Chat">
+    <img width="800" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-58.gif" alt="Chat">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="500" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-53.gif" alt="Intro">
+    <img width="800" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-53.gif" alt="Intro">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="500" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-54.gif" alt="Register adopt">
+    <img width="800" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-54.gif" alt="Register adopt">
   </kbd>
-  &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="500" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-55.gif" alt="Chat">
+    <img width="800" style="border-radius: 5px" src="./imagens/Peek%2019-05-2022%2010-55.gif" alt="Chat">
   </kbd>
 </p>
 
@@ -45,30 +44,30 @@
 
 <p align="center">
   <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-29-38.png" alt="Chat">
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-29-38.png" alt="Chat">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-30-42.png" alt="Intro">
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-30-42.png" alt="Intro">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-31-27.png">
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-31-27.png">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-31-45.png" alt="Chat">
-  </kbd>
-  <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-32-18.png" alt="Chat">
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-31-45.png" alt="Chat">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-32-37.png" alt="Intro">
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-32-18.png" alt="Chat">
   </kbd>
   &nbsp;&nbsp;&nbsp;&nbsp;
   <kbd>
-    <img width="400" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-33-40.png">
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-33-40.png">
+  </kbd>
+  <kbd>
+    <img width="800" style="border-radius: 5px" src="./imagens/Captura%20de%20tela%20de%202022-05-19%2012-32-37.png" alt="Intro">
   </kbd>
 </p>
 
