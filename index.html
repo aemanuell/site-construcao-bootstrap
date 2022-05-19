@@ -1,0 +1,720 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./imagens/construcao.png" type="">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./script.js">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css"
+        integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Construtora Ideal</title>
+</head>
+
+<body>
+
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark fixed-top navbar-transparent">
+            <div class="container">
+                <a href="#" class="navbar-brand">
+                    <img src="./imagens/construcao.png" width="40" alt=""> Ideal Construtora
+                </a>
+
+                <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="nav-principal">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                            <a href="#home" class="nav-link">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#servicos" class="nav-link">Serviços</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#portfolio" class="nav-link">Portfólio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#orcamento" class="nav-link">Orçamento</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="#contato" class="nav-link">Contato</a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="./login.html" class="btn btn-warning ml-4">Sua obra</a>
+                        </li>
+
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+    </header>
+    <section id="home" class="home d-flex">
+        <div id="demo" class="carousel slide" data-ride="carousel">
+
+            <!-- Indicators -->
+            <ul class="carousel-indicators">
+                <li data-target="#demo" data-slide-to="0" class="active"></li>
+                <li data-target="#demo" data-slide-to="1"></li>
+                <li data-target="#demo" data-slide-to="2"></li>
+            </ul>
+
+            <!-- The slideshow -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img src="./imagens/reforma.jpg">
+                    <div class="carousel-caption">
+                        <div class="d-flex container align-self-center justify-content-center">
+                            <div class="row">
+                                <div class="col-md-12 capa">
+                                    <h1 class="home-h1">Aqui começa a realização de seus sonhos...</h1>
+                                    <button class="btn btn-lg btn-warning">Agende sua reunião</button>
+                                    <button class="btn btn-lg  btn-success">Whatsapp</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/slider_image12.jpg">
+                    <div class="carousel-caption">
+                        <div class="d-flex container align-self-center justify-content-center">
+                            <div class="row">
+                                <div class="col-md-12 capa">
+                                    <h1 class="home-h1">Reforma de interiores e exteriores</h1>
+                                    <button class="btn btn-lg  btn-warning">Ver mais</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item">
+                    <img src="./imagens/slider_image13.jpg">
+                    <div class="carousel-caption">
+                        <div class="d-flex container align-self-center justify-content-center">
+                            <div class="row">
+                                <div class="col-md-12 capa">
+                                    <h1 class="home-h1">Tudo em um único lugar para melhor atendê-los</h1>
+                                    <button class="btn btn-lg  btn-warning">Acesse nosso Portfólio</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Left and right controls -->
+            <a class="carousel-control-prev" href="#demo" data-slide="prev">
+                <span class="carousel-control-prev-icon"></span>
+            </a>
+            <a class="carousel-control-next" href="#demo" data-slide="next">
+                <span class="carousel-control-next-icon"></span>
+            </a>
+        </div>
+    </section>
+
+    <section id="servicos" class="pt-5">
+        <div class="container pb-5">
+
+            <!-- Inicio NOSSOS SERVICOS-->
+            <div class="card bg-orange shadow p-3 mt-5 mb-5" style="background-color: white;">
+                <div class="card-body">
+                    <h4 class="card2 pt-3 d-flex justify-content-center">Conte conosco</h4>
+                    <h1 class="card-title d-flex justify-content-center">NOSSOS SERVIÇOS</h1>
+                    <div class="card-text row d-flex mt-4">
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row card-body shadow space2 mb-5 br"
+                                style="background-color: rgba(220, 86, 38, 1);">
+                                <div class="col-md-2">
+                                    <i class="fas fa-screwdriver fa-3x cor mq"></i>
+                                </div>
+                                <div class="col-md-10 space">
+                                    <p class="h3 text-uppercase">Alvenaria</p>
+                                    <p class="mt-2 card-text">Serviços de construção desde a fundação ao acabamento.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row card-body shadow space2 ml-1 mb-5 br"
+                                style="background-color: rgba(220, 86, 38, 1);">
+                                <div class="col-md-2">
+                                    <i class="fas fa-plug fa-3x cor"></i>
+                                </div>
+                                <div class="col-md-10 space">
+                                    <p class="h3 text-uppercase">Elétrica</p>
+                                    <p class="mt-2 card-text">Instalação, reparos e reformas elétricas.</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row card-body shadow space2 ml-1 mb-5 br"
+                                style="background-color: rgba(220, 86, 38, 1);">
+                                <div class="col-md-2">
+                                    <i class="fas fa-shower fa-3x cor"></i>
+                                </div>
+                                <div class="col-md-10 space">
+                                    <p class="h3 text-uppercase">Hidráulica</p>
+                                    <p class="mt-2 card-text">Encanamento, desentupimento e detecção de vazamentos.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-text row d-flex">
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row card-body shadow space2 mb-2 br"
+                                style="background-color: rgba(220, 86, 38, 1);">
+                                <div class="col-md-2">
+                                    <i class="fas fa-people-carry fa-3x cor"></i>
+                                </div>
+                                <div class="col-md-10 space">
+                                    <p class="h3 text-uppercase">Instalações</p>
+                                    <p class="mt-2 card-text">Assentamento de portas, manutenções e instalações
+                                        diversas.
+                                    </p>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row card-body shadow space2 ml-1 mb-2 br"
+                                style="background-color: rgba(220, 86, 38, 1);">
+                                <div class="col-md-2">
+                                    <i class="fas fa-pencil-ruler fa-3x cor"></i>
+                                </div>
+                                <div class="col-md-10 space">
+                                    <p class="h3 text-uppercase">Engenharia</p>
+                                    <p class="mt-2 card-text">Projetos desde o levantamento topográfico</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                            <div class="row card-body shadow space2 ml-1 mb-2 br"
+                                style="background-color: rgba(220, 86, 38, 1);">
+                                <div class="col-md-2">
+                                    <i class="fas fa-paint-roller fa-3x cor"></i>
+                                </div>
+                                <div class="col-md-10 space">
+                                    <p class="h3 text-uppercase">Reforma</p>
+                                    <p class="mt-2 card-text">Serviço de pintura</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- FIM NOSSOS SERVICOS-->
+
+            <!-- Inicio nossos cuidados-->
+            <h1 class="d-flex justify-content-center pt-5">AOS NOSSOS CUIDADOS</h1>
+            <div class="row d-flex mt-5">
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fas fa-pencil-alt fa-3x cor" src="./imagens/planning.png" width="60px"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="h3">Projetos</p>
+                            <p class="mt-2 card-text">Escolhemos juntos todos os produtos e materiais necessários para a
+                                sua nova casa.
+                            </p>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fas fa-drafting-compass fa-3x cor" src="./imagens/planning.png" width="60px"
+                                alt="planning"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="h3">Planejamento</p>
+                            <p class="mt-2 card-text">Projeto de arquitetura compatibilizado com o seu orçamento.
+                                Projetamos ambientes reais.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4 d-flex flex-column justify-content-center align-items-center">
+                    <div class="row">
+                        <div class="col-md-2">
+                            <i class="fas fa-mobile-alt fa-3x cor" src="./imagens/planning.png" width="60px"></i>
+                        </div>
+                        <div class="col-md-10">
+                            <p class="h3">Execução</p>
+                            <p class="mt-2 card-text">Acompanhe cada etapa da transformação dos seus ambientes.
+                                Gerenciamos e executamos sua reforma.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- Fim nossos cuidados-->
+            <!--INICIO CARROSEL-->
+            <div class="row mt-3 pb-3">
+                <div class="col-md-4">
+                    <div id="demo2" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators ex">
+                            <li data-target="#demo2" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo2" data-slide-to="1"></li>
+                            <li data-target="#demo2" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner carousel2">
+                            <div class="carousel-item active">
+                                <img class="border-image" src="./imagens/slider_image1.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="border-image" src="./imagens/slider_image8.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="border-image" src="./imagens/background_home.jpg">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo2" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo2" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div id="demo3" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators ex">
+                            <li data-target="#demo3" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo3" data-slide-to="1"></li>
+                            <li data-target="#demo3" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner carousel2">
+                            <div class="carousel-item active">
+                                <img class="border-image" src="./imagens/slider_image10.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="border-image" src="./imagens/slider_image2.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="border-image" src="./imagens/slider_image4.jpg">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo3" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo3" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div id="demo4" class="carousel slide" data-ride="carousel">
+
+                        <!-- Indicators -->
+                        <ul class="carousel-indicators ex">
+                            <li data-target="#demo4" data-slide-to="0" class="active"></li>
+                            <li data-target="#demo4" data-slide-to="1"></li>
+                            <li data-target="#demo4" data-slide-to="2"></li>
+                        </ul>
+
+                        <!-- The slideshow -->
+                        <div class="carousel-inner carousel2">
+                            <div class="carousel-item active">
+                                <img class="border-image" src="./imagens/slider_image7.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="border-image" src="./imagens/slider_image9.jpg">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="border-image" src="./imagens/slider_image6.jpg">
+                            </div>
+                        </div>
+
+                        <!-- Left and right controls -->
+                        <a class="carousel-control-prev" href="#demo4" data-slide="prev">
+                            <span class="carousel-control-prev-icon"></span>
+                        </a>
+                        <a class="carousel-control-next" href="#demo4" data-slide="next">
+                            <span class="carousel-control-next-icon"></span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <!--FIM CARROSEL-->
+        </div>
+    </section>
+    <section id="portfolio">
+        <div class="container pt-3">
+            <h4 class="pt-5 mt-5">Portfólio</h4>
+            <h1 class="d-flex justify-content-start">ALGUNS DE NOSSOS PROJETOS</h1>
+            <ul class="fotos">
+                <div>
+                    <li><a href="#img1"><img src="./imagens/slider_image1.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img2"><img src="./imagens/slider_image2.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img3"><img src="./imagens/slider_image3.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img4"><img src="./imagens/slider_image4.jpg" class="min" alt=""></a></li>
+                </div>
+                <div>
+                    <li><a href="#img5"><img src="./imagens/slider_image5.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img6"><img src="./imagens/slider_image6.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img7"><img src="./imagens/slider_image7.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img8"><img src="./imagens/slider_image8.jpg" class="min" alt=""></a></li>
+                </div>
+                <div>
+                    <li><a href="#img9"><img src="./imagens/slider_image9.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img10"><img src="./imagens/slider_image10.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img11"><img src="./imagens/slider_image11.jpg" class="min" alt=""></a></li>
+                    <li><a href="#img12"><img src="./imagens/slider_image7.jpg" class="min" alt=""></a></li>
+                </div>
+            </ul>
+
+            <div class="lbox" id="img1">
+                <div class="box_img">
+                    <a href="#img12" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image1.jpg" width="100%">
+                    <a href="#img2" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img2">
+                <div class="box_img">
+                    <a href="#img1" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">x</a>
+                    <img src="./imagens/slider_image2.jpg" width="100%" alt="">
+                    <a href="#img3" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img3">
+                <div class="box_img">
+                    <a href="#img2" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image3.jpg" width="100%" alt="">
+                    <a href="#img4" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img4">
+                <div class="box_img">
+                    <a href="#img3" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image4.jpg" width="100%" alt="">
+                    <a href="#img5" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img5">
+                <div class="box_img">
+                    <a href="#img4" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image5.jpg" width="100%" alt="">
+                    <a href="#img6" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img6">
+                <div class="box_img">
+                    <a href="#img5" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image6.jpg" width="100%" alt="">
+                    <a href="#img7" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img7">
+                <div class="box_img">
+                    <a href="#img6" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image7.jpg" width="100%" alt="">
+                    <a href="#img8" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img8">
+                <div class="box_img">
+                    <a href="#img7" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image8.jpg" width="100%" alt="">
+                    <a href="#img9" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img9">
+                <div class="box_img">
+                    <a href="#img8" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image9.jpg" width="100%" alt="">
+                    <a href="#img10" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img10">
+                <div class="box_img">
+                    <a href="#img9" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image10.jpg" width="100%" alt="">
+                    <a href="#img11" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img11">
+                <div class="box_img">
+                    <a href="#img10" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image11.jpg" width="100%" alt="">
+                    <a href="#img12" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+
+            <div class="lbox" id="img12">
+                <div class="box_img">
+                    <a href="#img11" class="botao" id="pre">&#171;</a>
+                    <a href="#portfolio" class="botao" id="close">X</a>
+                    <img src="./imagens/slider_image7.jpg" width="100%" alt="">
+                    <a href="#img1" class="botao" id="nex">&#187;</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="orcamento">
+        <div class="container pt-5">
+            <div class="row d-flex justify-content-around pt-1">
+                <div class="col-md-6 d-flex">
+                    <div class="align-self-center">
+                        <h1 class="orcamento-h1">Realize sua obra com a Ideal</h1>
+                        <p class="text-justify">
+                            A IC oferece mão de obra especializada para sua reforma ou construção em toda Brasília.
+                            Solicite já um orçamento sem compromisso. Garantimos o melhor preço da Região.
+                        </p>
+
+                        <form class="mt-4 mb-4">
+                            <div class="formulario input-group input-group-lg">
+                                <input type="text" placeholder="Seu e-mail" class="form-control">
+                                <div class="input-group-append">
+                                    <button type="button" class="btn btn-warning">Solicitar orçamento</button>
+                                </div>
+                            </div>
+                        </form>
+                        <p>
+                            Siga-nos nas plataformas digitais
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="" class="btn btn-outline-light">
+                                <i class="fas fa-envelope"></i>
+                            </a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-md-6 d-none d-md-block pt-1">
+                    <img src="./imagens/escavadeira.png" width="100%" alt="">
+                </div>
+                <div>
+                    <br><br><br><br><br><br>
+                    <br><br><br><br><br><br>
+                    <br><br><br><br><br><br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <br><br><br><br>
+
+    <section class="bg-perfomed">
+        <div class="container d-flex justify-content-center p-5">
+            <div class="row">
+                <div class="col-md-4 realizados">
+                    <h1 class="perfomed2 mb-4 mt-4 d-flex justify-content-center">12</h1>
+                    <p class="text-center perfomed">Anos de experiência</p>
+                </div>
+            </div>
+            <div class="row ml-5">
+                <div class="col-md-4 realizados">
+                    <h1 class="perfomed2 mb-4 mt-4 d-flex justify-content-center">512</h1>
+                    <p class="text-center perfomed">Reformas realizadas</p>
+                </div>
+            </div>
+            <div class="row ml-5">
+                <div class="col-md-4 realizados">
+                    <h1 class="perfomed2 mb-4 mt-4 d-flex justify-content-center">23</h1>
+                    <p class="text-center perfomed">Empreendimentos construídos</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="recomendations" class="mb-5 pb-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12">
+                    <h4 class="pt-5 mt-5 d-flex justify-content-center">Satisfação Garantida Aos Nossos Clientes</h4>
+                    <h1 class="d-flex justify-content-center">Recomendações Dos Nossos Clientes</h1>
+                    <div class="row">
+                        <div class="col-md-4 mt-5 mb-5">
+                            <div class="card card-body" style="background: rgba(220, 86, 38, 1); border-radius: 20px;">
+                                <i class="fas fa-quote-left fa-2x cor"></i>
+                                <p class="font-italic pl-3 pt-3 pr-3 text-white-50" style="font-size: 19px">
+                                    A minha parceria com a IC iniciou há 8 anos atrás através de um cliente e hoje fazem
+                                    parte do meu time. Sempre atentos à execução e aos detalhes. Não medem esforços para
+                                    executar dentro do prazo e com total fidelidade ao projeto.
+                                    <i class="d-flex justify-content-end fas fa-quote-right fa-2x cor"></i>
+                                </p>
+                                <h4 class="text-right text-white">Antonio Emanuel</h4>
+                                <h6 class="text-right text-white-50">Arquiteto</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-5 mb-5 d-flex align-items-center">
+                            <div class="card card-body" style="background: rgba(220, 86, 38, 1); border-radius: 20px;">
+                                <i class="fas fa-quote-left fa-2x cor"></i>
+                                <p class="font-italic pl-3 pt-3 pr-3 text-white-50" style="font-size: 19px">
+                                    A parceria com a Ideal Construtora é a definição de confiança, profissionalismo,
+                                    qualidade, e extrema agilidade na execução dos projetos.
+                                    <i class="d-flex justify-content-end fas fa-quote-right fa-2x cor"></i>
+                                </p>
+                                <h4 class="text-right text-white">Francisco Airto</h4>
+                                <h6 class="text-right text-white-50">Arquiteto</h6>
+                            </div>
+                        </div>
+
+                        <div class="col-md-4 mt-5 mb-5 d-flex align-items-center">
+                            <div class="card card-body" style="background: rgba(220, 86, 38, 1); border-radius: 20px;">
+                                <i class="fas fa-quote-left fa-2x cor"></i>
+                                <p class="font-italic pl-3 pt-3 pr-3 text-white-50" style="font-size: 18px">
+                                    Trabalho com o Ideal há alguns anos e sempre é uma satisfação para mim
+                                    e para os meus clientes. Sua equipe é selecionada e muito gentil, todos
+                                    trabalham com boa vontade e capricho. Uma parceria para a vida toda.
+                                    <i class="d-flex justify-content-end fas fa-quote-right fa-2x cor"></i>
+                                </p>
+                                <h4 class="text-right text-white">Fabiane Bueno</h4>
+                                <h6 class="text-right text-white-50">Arquiteta</h6>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contato" class="mt-5 pt-5 pb-3 mb-3">
+        <div class="container">
+
+            <div class="card-body shadow">
+                <div class="row">
+                    <div class="col-md-6 boot">
+                        <h2 class="d-flex justify-content-center pt-5 pb-5">NOSSOS CONTATOS</h2>
+                        <div class="d-flex justify-content-start align-items-center mt-3 ml-3 pl-5">
+                            <i class="fas fa-map-marker-alt cont"></i>
+                            <div class="ml-4 pl-3">
+                                <p class="text-dark">ENDEREÇO</p>
+                                <span>Qs 413 conjunto D lote 13 Riacho Fundo</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center mt-4 ml-3 pl-5">
+                            <i class="far fa-envelope cont"></i>
+                            <div class="ml-4 pl-3">
+                                <p class="text-dark">E-MAIL</p>
+                                <span>contato@idealconstrutora.com.br</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center mt-4 ml-3 pl-5">
+                            <i class="fas fa-phone cont"></i>
+                            <div class="ml-4 pl-3">
+                                <p class="text-dark">TELEFONE</p>
+                                <span>(61) 99988-7766</span>
+                            </div>
+                        </div>
+                        <div class="d-flex justify-content-start align-items-center mt-4 ml-3 pl-5 pb-5">
+                            <i class="far fa-clock cont"></i>
+                            <div class="ml-4 pl-3">
+                                <p class="text-dark">Horários</p>
+                                <span>Seg - Sex 8:00 - 18:00</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-6 pr-5">
+                        <h2 class="d-flex justify-content-center pt-5 pb-5">ENVIE SUA MENSAGEM</h2>
+                        <div class="ml-5 pl-2">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="auxlabel" for="">Seu Nome(*)</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="ml-5 pl-2">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="auxlabel" for="">Seu E-mail(*)</label>
+                                    <input type="email" class="form-control" placeholder="name@example.com">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="ml-5 pl-2">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="auxlabel" for="">Assunto</label>
+                                    <input type="email" class="form-control">
+                                </div>
+                            </form>
+                        </div>
+                        <div class="ml-5 pl-2">
+                            <form action="">
+                                <div class="form-group">
+                                    <label class="auxlabel" for="">Sua mensagem</label>
+                                    <textarea class="form-control" rows="5"></textarea>
+                                </div>
+                            </form>
+                        </div>
+                        <button type="submit" class="btn btn-danger">ENVIAR</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-12 text-center">
+                    Copyright © 2021 Ideal Construtora - Todos os direitos reservados         
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script src="./script.js"></script>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"
+        integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"
+        integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
